@@ -130,7 +130,7 @@ header:hover .LogoUNAM{
   .carousel {
     width: 100%;
     overflow: scroll;
-    padding: 30px;
+    padding-top: 30px;
     position: relative;
   }
   .carousel__container {
@@ -222,7 +222,7 @@ header:hover .LogoUNAM{
     /* height: 50px; */
     font-size: 18px;
     margin: 10px;
-    width: 100vw;
+    width: 85vw;
     border-bottom: 1px dotted white;
     padding-left: 30px;
   }
@@ -230,7 +230,8 @@ header:hover .LogoUNAM{
   .menu ul li:hover {
     font-size: 25px;
     transition: 0.5s;
-    color: rgba(253, 253, 253, 0.5);
+/*    color: rgba(253, 253, 253, 0.5);*/
+    color:white;
   }
 
   .LogoUNAM {
