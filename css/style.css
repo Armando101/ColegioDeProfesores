@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+
 }
 header {
   display: grid;
@@ -28,6 +29,12 @@ header:hover .menu ul{
   color: black;
   transition: 0.5s;
 }
+
+.hero h2 a{
+  text-decoration: none;
+  color: inherit;
+}
+
 ul li a {
   text-decoration: none;
   color: inherit;
@@ -131,12 +138,13 @@ header:hover .LogoUNAM{
     width: 100%;
     overflow: scroll;
     padding-top: 30px;
-    position: relative;
+    position: relative;    
   }
   .carousel__container {
     white-space: nowrap;
     margin: 70px 0px;
     padding-bottom: 10px;
+    margin-top: 0;
   }
   .carousel--item {
     background-color: rgba(0,0,0,0.9);
@@ -163,6 +171,9 @@ header:hover .LogoUNAM{
     opacity: 1;
   }
 
+  .carousel__container h3 {
+    margin-left: 70px;
+  }
   .carousel--item__img {
     width: 200px;
     height: 250px;
@@ -207,6 +218,16 @@ header:hover .LogoUNAM{
     font-size: 10px;
   }
 
+.footer {
+  background:linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+  height: 200px;
+  z-index: 2;
+}
+
+.footer--container {
+  padding: 50px;
+  color: black;
+}
 
 @media screen and (max-width: 890px) {
   header {
